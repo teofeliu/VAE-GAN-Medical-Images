@@ -3,8 +3,8 @@
 ## CS 675 / ECE 685 Final Project
 
 ### Authors
-- Maximilian Holsman
 - Teo Feliu
+- Maximilian Holsman
 - Emmanuel Mokel
 
 ### Abstract
@@ -24,13 +24,16 @@ Our study utilizes three distinct medical datasets to evaluate the effectiveness
 
 #### Figures for Datasets
 - **Figure 1**: Snapshot of the Prostate Gleason Dataset.
-  ![Prostate Gleason Dataset Sample](675 Writeup Images/Prostate_Vanilla_100.jpeg)
+  
+  ![Prostate Gleason Dataset Sample](675%20Writeup%20Images/Prostate_Vanilla_100.jpeg)
 
 - **Figure 2**: Snapshot of the ChestMNIST Dataset.
-  ![ChestMNIST Dataset Sample](675 Writeup Images/chest_example.png)
+  
+  ![ChestMNIST Dataset Sample](675%20Writeup%20Images/chest_example.png)
 
 - **Figure 3**: Snapshot of the RetinaMNIST Dataset.
-  ![RetinaMNIST Dataset Sample](675 Writeup Images/retina_example.png)
+  
+  ![RetinaMNIST Dataset Sample](675%20Writeup%20Images/retina_example.png)
 
 ### 3. VAE Variants for Medical Image Generation
 We explored several VAE variants to optimize synthetic image generation, utilizing Google Colab and T4 GPUs for our experiments.
@@ -46,19 +49,24 @@ Combining VAE with GAN architectures, we achieved high-quality image reconstruct
 
 #### Figures for VAE Variants
 - **Figure 4**: Poor generated samples from Vanilla VAE.
-  ![Poor Generated Samples Vanilla VAE](675 Writeup Images/Prostate_Vanilla_100.jpeg)
+  
+  ![Poor Generated Samples Vanilla VAE](675%20Writeup%20Images/Prostate_Vanilla_100.jpeg)
 
 - **Figure 5**: High-quality retina samples from Vanilla VAE.
-  ![High-Quality Retina Samples Vanilla VAE](675 Writeup Images/Retina_Vanilla_100.png)
+  
+  ![High-Quality Retina Samples Vanilla VAE](675%20Writeup%20Images/Retina_Vanilla_100.png)
 
 - **Figure 6**: Generated Prostate Gleason images with MS-SSIM VAE.
-  ![Generated Prostate Gleason Images MS-SSIM VAE](675 Writeup Images/Prostate_MSSIM_50.png)
+  
+  ![Generated Prostate Gleason Images MS-SSIM VAE](675%20Writeup%20Images/Prostate_MSSIM_50.png)
 
 - **Figure 7**: Generated ChestMNIST images with MS-SSIM VAE.
-  ![Generated ChestMNIST Images MS-SSIM VAE](675 Writeup Images/Chest_MSSIM_50.png)
+  
+  ![Generated ChestMNIST Images MS-SSIM VAE](675%20Writeup%20Images/Chest_MSSIM_50.png)
 
 - **Figure 8**: High-quality results from VAE-GAN for prostate data.
-  ![High-Quality Results VAE-GAN](675 Writeup Images/Prostate_VAEGAN.png)
+  
+  ![High-Quality Results VAE-GAN](675%20Writeup%20Images/Prostate_VAEGAN.png)
 
 
 ### 4. Conclusions and Next Steps
